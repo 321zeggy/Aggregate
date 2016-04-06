@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+
+<body>
+    <ul id="my-menu">
+        <li><a href="#">Finals Breakfast</a>
+            <ul>
+                <li><a href="#">Budget</a></li>
+                <li><a href="#">Reminder</a></li>
+                <li><a href="#">Info/List</a></li>
+                <li><a href="#">Inventory</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Study Break</a></li>
+        <li><a href="#">Create Event</a></li>
+    </ul>
+    <div id="to-do">To-Do
+    <ul id="to-do-list">
+        <li>
+            <input type="checkbox">go shopping</li>
+        <li>
+            <input type="checkbox">reserve space</li>
+    </ul>
+    </div>
+    <div id="notes">Notes
+    <ul id="notes-list">
+    </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="bower_components/tendina/dist/tendina.min.js"></script>
+    <script>
+    $('#my-menu').tendina()
+    </script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-2.2.0.min.js"><\/script>')
+    </script>
+</body>
+
+</html>

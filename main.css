@@ -1,0 +1,31 @@
+#my-menu, #to-do-list {
+	list-style: none;
+}
+
+#to-do {
+	background-color: yellow;
+	width:200px;
+	height: 200px;
+	text-align: left;
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+#to-do-list {
+	padding-left: 10px;
+	font-size: 20px;
+}
+
+#notes {
+	background-color: grey;
+	width:200px;
+	height: 200px;
+	text-align: left;
+	padding-top: 10px;
+	font-size: 20px;
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
